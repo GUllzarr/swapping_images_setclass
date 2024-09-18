@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swaping imges</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Enhanced Image Swapping Gallery</h1>
+    <div class="gallery">
+        <img src="./images/bike.webp" alt="Image 1" onclick="swapImage('./images/bike.webp',this)" class="active">
+        <img src="./images/car.webp" alt="Image 2" onclick="swapImage('./images/car.webp',this)">
+        <img src="./images/bicycle.webp" alt="Image 3" onclick="swapImage('./images/bicycle.webp',this)">
+    </div>
+    <p>Selected Image</p>
+    <img id="mainImage" class="main-image" src="./images/bike.webp" alt="Main Image">
+
+
+
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
